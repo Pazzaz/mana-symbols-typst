@@ -1,4 +1,4 @@
-#import "lib.typ": mana
+#import "src/lib.typ": mana
 
 = #mana([{u/g}b5], sort: false) We can have mana in titles #mana([5b{u/g}], sort: false)
 We can also have mana in paragraphs, e.g. green mana #mana[g] or black and red hybrid mana #mana[b/r]. Or maybe we want to have the mana cost of Progenitus:
