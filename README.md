@@ -1,0 +1,2 @@
+# Mana Symbols Typst Package
+This is a [Typst](https://typst.app/) package for displaying [Magic the Gathering](https://en.wikipedia.org/wiki/Magic:_The_Gathering) [mana symbols](https://mtg.wiki/page/Numbers_and_symbols#Mana_symbols). The package is split into two parts: the typst code (`package/`) and the Rust code (`wasm/`, as it's compiled to [WASM]()). Most of the implementation is contained in the Rust crate [`mana-symbols`](https://github.com/Pazzaz/mana-symbols).
