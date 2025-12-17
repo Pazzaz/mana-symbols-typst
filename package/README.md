@@ -11,18 +11,20 @@ then you write `#mana[X]`, where `X` is the sequence of mana symbols.
 
 # Examples
 
-| Mana type                              | Typst code          |
-| -------------------------------------- | ------------------- |
-| Green                                  | `#mana[g]`          |
-| Green or white hybrid                  | `#mana[g/w]`        |
-| 5 generic and 1 blue                   | `#mana[5u]`         |
-| 5 generic or blue hybrid               | `#mana[5/u]`        |
-| Cost of [Ajani, Sleeper Agent][ajani]  | `#mana[1g{g/w/p}w]` |
+| Mana type                             | Typst code                |
+| ------------------------------------- | ------------------------- |
+| Green                                 | `mana[g]`                 |
+| Green or white hybrid                 | `mana[g/w]`               |
+| 5 generic and 1 blue                  | `mana[5u]`                |
+| 5 generic or blue hybrid              | `mana[5/u]`               |
+| Cost of [Ajani, Sleeper Agent][ajani] | `mana[1g{g/w/p}w]`        |
+| Red and snow                          | `mana[rs]`                |
+| Snow and red                          | `mana([sr], sort: false)` |
 
-## Options
+# Options
 `mana` has a number of options:
 - `sort`: for consecutive mana symbols, should they become sorted. (default: true)
-- `normalize_hybrid`: for hybird mana symbols, should they be sorted, i.e. should the halves be sorted. (default: true)
+- `normalize_hybrid`: for hybrid mana symbols, should they be normalized, i.e. should the halves be sorted. (default: true)
 - `shadow`: whether to draw drop-shadows (default: true)
 - `size`: size of the mana symbols. (default: 1em)
 
