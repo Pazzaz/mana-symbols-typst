@@ -58,16 +58,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mana"
-version = "0.1.0"
-dependencies = [
- "ciborium",
- "mana-symbols",
- "serde",
- "wasm-minimal-protocol",
-]
-
-[[package]]
 name = "mana-symbols"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -173,4 +163,14 @@ dependencies = [
  "proc-macro2",
  "quote",
  "venial",
+]
+
+[[package]]
+name = "wubrg"
+version = "0.1.0"
+dependencies = [
+ "ciborium",
+ "mana-symbols",
+ "serde",
+ "wasm-minimal-protocol",
 ]

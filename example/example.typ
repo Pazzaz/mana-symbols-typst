@@ -1,4 +1,4 @@
-#import "@local/mana-symbols:0.1.0": mana
+#import "@local/wubrg:0.1.0": mana
 
 = #mana([{u/g}b5], sort: false) We can have mana in titles #mana([5b{u/g}], sort: false)
 We can also have mana in paragraphs, e.g. green mana #mana[g] or black and red hybrid mana #mana[b/r]. Or maybe we want to have the mana cost of #link("https://scryfall.com/card/fdn/244/progenitus", "Progenitus"):
